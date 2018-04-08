@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link href="css/scrolling-nav.css" rel="stylesheet">
      
@@ -17,30 +17,32 @@
     <!-- Navigation -->
     
        <div class="row">
-           <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-           <div class="container">
-           <div class="collapse navbar-collapse" id="navbarResponsive">
+           
+           <div class="container-fluid">
+           
                     <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-8 col-sm-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">      <!-- Can't style these in the heading tried styling .menuitem & .ui-menu-color-home -->
+                            <a href="index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>  <!-- set padding to zero (#nav li) but can still see border around each item -->
                         </li>
-                        <li class="col-xs-8 col-sm-2 ui-menu-color-resume menuitem">
-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-band menuitem">
+                            <a href="band" class="hvr-sweep-to-bottom"><span>Band</span></a>
                         </li>
-                        <li class="col-xs-8 col-sm-2 ui-menu-color-contact menuitem">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-video menuitem">
+                            <a href="video" target="_blank" class="hvr-sweep-to-bottom"><span>Video</span></a>
                         </li>
-                        <li class="col-xs-8 col-sm-2 ui-menu-color-download menuitem">
-                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+                       
                         </li>
-                        <li class="col-xs-8 col-sm-2 ui-menu-color-download menuitem">
-                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-testimonials menuitem">
+                            <a href="testimonials.html" class="hvr-sweep-to-bottom"><span>Testimonials</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
+                            <a href="contact.html" class="hvr-sweep-to-bottom"><span>Contact</span></a>
                         </li>
                     </ul>
                 </div>
                 </div>
-                </div>
-    </nav>
+           
+    
 
     <header class="bg-primary text-white">
       <style type="text/css">
@@ -55,7 +57,7 @@
         </style>
         
       <div class="container text-center">
-          <ul id="nav" <div class="list-inline clearfix">
+          <ul id="nav"><div class="list-inline clearfix">
                         
                     </ul>
                 </div>
@@ -63,10 +65,10 @@
         <h1 class="name">2morrow's Party</h1>
         <p class="title">Drogheda's Dance & Disco Sensation </p>
       </div>
-      </div>
+     
     </header>
 
-    <section id="about">
+    <section id="About-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -83,7 +85,42 @@
       </div>
     </section>
 
-    <section id="services" class="bg-primary">
+    <section id="Band" class="Band-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto page">
+            <h2>Services we offer</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Video" class="Video-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact us</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     
+    
+      <section id="Testimonials" class="Testimonials-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Services we offer</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="Contact" class="Contact-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -94,47 +131,16 @@
       </div>
     </section>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-     <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; 2morrows Party 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-
+   
   </body>
 
 </html>
