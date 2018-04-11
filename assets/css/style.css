@@ -54,6 +54,13 @@ body {
     color: #ffffff;
 }-----------------original css*/
 
+/*--------------------------Video Page*/
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 /*--------------------------colours*/
 
 .hvr-sweep-to-bottom:before{
@@ -168,6 +175,10 @@ section {
   padding: 150px 0;
 }
 
+/*--------------------------About Page*/
+.carousel .item {
+height: 400px;
+}
 
 .name{
     font-size: em(40)
@@ -198,7 +209,9 @@ section {
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;*/
+    -webkit-transition: all .5s ease-in-out;
+    
+}
 
 
 
