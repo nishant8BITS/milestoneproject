@@ -78,10 +78,12 @@ body{
 
 .heading{
   color: #fafa;
+  padding-bottom: 5px;
 }
 
 .reviews-section{
-  background-color: #d8d5e2;
+  background-color: #d8d5e2; 
+  margin-top: -30px;
 }
 
 #about-section{
@@ -206,6 +208,9 @@ video {
   padding: 0;
   
 }
+/*-----band page ----*/
+
+
 
 
 
@@ -384,11 +389,14 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 @media (min-width: 300px) {
-  img {
+.heading {
+   font-size: 22px;
+   padding: 5px;
+  }
     /*<!--height: 230px;*/
   }
 }
@@ -400,6 +408,10 @@ section {
     padding-left: 50px;
     padding-right: 60px;
   }
+  .heading {
+   font-size: 28px;
+   padding: 5px;
+  } 
 }
 
 @media (min-width: 700px) {
@@ -408,6 +420,10 @@ section {
     padding-left: 60px;
     padding-right: 70px;
   }
+  .heading {
+   font-size: 32px;
+   padding: 5px;
+  } 
 }
 @media (min-width: 800px) {
   .mainimage {
@@ -422,6 +438,10 @@ section {
     padding-left: 120px;
     padding-right: 130px;
   }
+  .heading {
+   font-size: 34px;
+   padding: 5px;
+  } 
 }
 
 
