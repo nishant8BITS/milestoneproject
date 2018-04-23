@@ -4,9 +4,13 @@ body{
   margin:0;
 }
 
+
+
 #nav{
   width:100%;
   padding:0%;
+  margin-top: 0px;
+  overflow: hidden;
 }
 .container{
   width:100% !important;
@@ -18,10 +22,52 @@ body{
   padding:0;
 }
 
-.container2{
+.container-fluid.header{
   background-color: black;
   padding:0;
 
+}
+
+.rounded-circle.backing{
+  background-image: url("assets/images/backing.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-clip: padding-box;
+}
+/*-----------------------reviews----------------------*/
+
+.picture1{
+  
+}
+
+.picture2{
+  
+  margin-top: -20px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.picture3{
+  margin-top: -20px;
+  height:;
+}
+
+.picture4{
+  margin-left: px;
+  margin-right: px;
+  height: ;
+  
+}
+
+.picture6{
+  margin-bottom: 0px;
+}
+.btn-primary{
+  color: black;
+  background-color: #fafa;
+  border: none;
+  
 }
 
 #header{
@@ -34,6 +80,9 @@ body{
   color: #fafa;
 }
 
+.reviews-section{
+  background-color: #d8d5e2;
+}
 
 #about-section{
   background-color:#d5dae2;
@@ -70,7 +119,11 @@ body{
 #contact-section{
   background-color:#d8d5e2;
   text-align: justify;
-  padding:5%;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: -10%;
+  margin-left: -65px;
+  margin-right: -65px;
 
 
 }
@@ -94,14 +147,35 @@ body{
 
 }
 
-.general-sub1{
-  text-align: center;
-  font-size: 16px;
-  color: #fafafa;
-  font-family: Roboto;
-  font-weight: 200;
+.footercolor{
+  background-color:#e2d5e0;
 }
 
+.text-center{
+  background-color:#e2d5e0;
+}
+
+.sociallinks{
+  
+  font-size: 16px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.phonenumber{
+  font-size: 16px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.emailaddress{
+  font-size: 16px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 500;
+}
 .mail-block{
   color:black;
   text-decoration: none;
@@ -118,27 +192,30 @@ video {
 
 
 
-.hvr-sweep-to-bottom:before{
+.hvr-fade:hover{
+    background-color: #fafa; 
     background: rgba(0, 0, 0, 0.3);
     height: 50px;
+    
 }
 
 
-.bg-primary{
-    background-color:#7626EE;
-}
 
 
 #nav li{
   padding: 0;
+  
 }
 
+
+
 .ui-menu-color-home{
-    background-color: #49494b;
-    height: 50px;
+    background-color: #49494b; 
+    height: 52px;
     text-align: center;
     padding: 0px;
-    
+    border: solid .5px;
+    border-color: black;
 }
 
 .ui-menu-color-home a {
@@ -150,16 +227,21 @@ video {
     display: block;
     height: 50px;
     font-size: 19px;
+    background-color: #261735;
+    border-right: solid .2px;
+    border-color: black;
     
 }
 
 
 
 .ui-menu-color-band{
-    background-color: #49494b;
-    height: 50px;
+    background-color: #49494b; 
+    height: 52px;
     text-align: center;
     padding: 0px;
+    border: solid .5px;
+    border-color: black;
 }
 
 .ui-menu-color-band a {
@@ -171,7 +253,7 @@ video {
     display: block;
     height: 50px;
     font-size: 19px;
-    
+    background-color: #261735;
     
 
 }
@@ -180,9 +262,11 @@ video {
 
 .ui-menu-color-video{
     background-color: #49494b;
-    height: 50px;
+    height: 52px;
     text-align: center;
     padding: 0px;
+    border: solid .5px;
+    border-color: black;
 }
 
 .ui-menu-color-video a {
@@ -194,6 +278,7 @@ video {
     display: block;
     height: 50px;
     font-size: 19px;
+    background-color: #261735;
     
 }
 
@@ -201,9 +286,11 @@ video {
 
 .ui-menu-color-setlist{
     background-color: #49494b;
-    height: 50px;
+    height: 52px;
     text-align: center;
     padding: 0px;
+    border: solid .5px;
+    border-color: black;
 }
 
 .ui-menu-color-setlist a{
@@ -215,6 +302,7 @@ video {
     display: block;
     height: 50px;
     font-size: 19px;
+    background-color: #261735;
     
     
 }
@@ -223,9 +311,11 @@ video {
 
 .ui-menu-color-reviews{
     background-color: #49494b;
-    height: 50px;
+    height: 52px;
     text-align: center;
     padding: 0px;
+    border: solid .5px;
+    border-color: black;
 }
 
 .ui-menu-color-reviews a {
@@ -237,6 +327,7 @@ video {
     display: block;
     height: 50px;
     font-size: 19px;
+    background-color: #261735;
     
       
 }
@@ -247,9 +338,11 @@ video {
 
 .ui-menu-color-contact{
     background-color: #49494b;
-    height: 50px;
+    height: 52px;
     text-align: center;
     padding: 0px;
+    border: solid .5px;
+    border-color: black;
     
 }
 
@@ -259,19 +352,25 @@ video {
     color: #fafafa;
     height: 50px;
     padding-top: 12px;
+    padding-right: 10px;
     display: block;
     height: 50px;
     font-size: 19px;
+    background-color: #261735;
     
     
     
 }
 
+html{
+  background-color: black;
+}
 
 
 
-
-  
+div.container-fluid.header{
+  padding: 0;
+}  
 
 
 header {
@@ -290,7 +389,7 @@ section {
 
 @media (min-width: 300px) {
   img {
-    height: 230px;
+    /*<!--height: 230px;*/
   }
 }
 
@@ -356,4 +455,27 @@ section {
 
 #footer-details {
     margin:20px;
+} 
+
+
+.general-info{
+  display: flex;
+  justify-content: space-evenly; 
+  padding:10px;
+  background-color: #fafa;
+
+} 
+
+.info1{
+  flex:1;
+}
+
+.info2{
+  flex:1;
+}
+  
+
+
+.info3{
+  flex:1;
 }
