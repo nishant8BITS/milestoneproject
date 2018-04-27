@@ -77,14 +77,21 @@ body{
 }
 
 .heading{
-  color: #fafa;
+  color: #e2d5e0;
   padding-bottom: 5px;
 }
 
 .reviews-section{
   background-color: #d8d5e2; 
   margin-top: -30px;
+  text-indent: 30px;
+  
 }
+
+.card-text{
+  text-indent: 0px;
+}
+
 
 #about-section{
   background-color:#d5dae2;
@@ -159,24 +166,25 @@ body{
 
 .sociallinks{
   
-  font-size: 16px;
-  color: black;
+  font-size: 20px;
+  color: #261735;
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: bold;
 }
 
+
 .phonenumber{
-  font-size: 16px;
-  color: black;
+  font-size: 20px;
+  color: #261735;
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .emailaddress{
-  font-size: 16px;
-  color: black;
+  font-size: 20px;
+  color: #261735;
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 700;
 }
 .mail-block{
   color:black;
@@ -482,20 +490,10 @@ section {
   display: flex;
   justify-content: space-evenly; 
   padding:10px;
-  background-color: #fafa;
+  background-color: #FCDFFC;
 
 } 
 
-.info1{
-  flex:1;
-}
-
-.info2{
-  flex:1;
-}
-  
 
 
-.info3{
-  flex:1;
-}
+
